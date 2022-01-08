@@ -1,0 +1,31 @@
+
+.grid {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+  
+  .grid div {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .snake {
+    background-color: green;
+    border-radius: 10px;
+  }
+
+  
+.snakeHead {
+  background-image: url('snakeHead.jpg');  
+}
+
+  
+  .apple {
+    /* background-color: purple; */
+    background-image: url('apple.jpg');  
+  }
